@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <h1>M&#234;m&#245;ry G&#227;m&#234;</h1>
+    <div>
+        <div class="div1">
+            <table>
+                <tr>
+                    <td><button id="0" onclick="flipCard(0)" class="button"></button></td>
+                    <td><button id="1" onclick="flipCard(1)" class="button"></button></td>
+                    <td><button id="2" onclick="flipCard(2)" class="button"></button></td>
+                    <td><button id="3" onclick="flipCard(3)" class="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="flipCard(4)" class="button"></button></td>
+                    <td><button id="5" onclick="flipCard(5)" class="button"></button></td>
+                    <td><button id="6" onclick="flipCard(6)" class="button"></button></td>
+                    <td><button id="7" onclick="flipCard(7)" class="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="flipCard(8)" class="button"></button></td>
+                    <td><button id="9" onclick="flipCard(9)" class="button"></button></td>
+                    <td><button id="10" onclick="flipCard(10)" class="button"></button></td>
+                    <td><button id="11" onclick="flipCard(11)" class="button"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="flipCard(12)" class="button"></button></td>
+                    <td><button id="13" onclick="flipCard(13)" class="button"></button></td>
+                    <td><button id="14" onclick="flipCard(14)" class="button"></button></td>
+                    <td><button id="15" onclick="flipCard(15)" class="button"></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="div2">
+            <h2 id="hits" class="information">Hits: 0</h2>
+        </div>
+    </div><br>
+    <button type="button" class="btn" id="restart" onclick="play_again()">Play Again </button>    
+    <script src="index.js"></script>
+</body>
+</html>
