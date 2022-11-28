@@ -72,5 +72,7 @@ function play_again() {
         game_data.cardTwo.disabled = false;
         game_data.hits = 0
         $('#hits').text(`Hits : ${game_data.hits}`);
+         frontFace_cards = frontFace_cards.sort(() => { return Math.random() - 0.5 });
+
     }
 }
